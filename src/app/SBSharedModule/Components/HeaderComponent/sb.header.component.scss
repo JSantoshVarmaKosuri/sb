@@ -4,7 +4,7 @@ $background: #2089df;
 $borderColor: #FF9C15;
 
 $menuBackground:#FF9400;
-$menuBackgroundAlternate:#EA8700;
+$menuBackgroundAlternate:#ca7400;
 $menuBackgroundBorder: #FFC371;
 
 $headingColor: whitesmoke;
@@ -70,7 +70,11 @@ $imageColorAlternate: #EA8700;
 
         a {
             text-decoration: none;
-            color: $textColorDesktop !important;
+            color: $textColorDesktop;
+        }
+
+        a:hover {
+            color: $textColorDesktopAlternate;
         }
     }
 }
@@ -90,13 +94,21 @@ $imageColorAlternate: #EA8700;
 
         a {
             text-decoration: none;
-            color: $textColorDesktop !important;
+            color: $textColorDesktop;
+        }
+
+        a:hover {
+            color: $textColorDesktopAlternate;
         }
     }
 }
 
 .sb-active-route {
     background-color: $textColorDesktopAlternate;
+
+    a {
+        color: $textColorDesktop !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
