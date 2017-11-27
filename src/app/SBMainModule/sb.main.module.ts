@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { SbMainComponet } from './sb.main.componet';
@@ -11,6 +12,7 @@ import { SbHomeModule } from '../SBHomeModule/sb.home.module';
     declarations: [SbMainComponet],
     imports: [
         BrowserModule,
+        BrowserAnimationsModule,
         SbMainRouter,
         SbHomeModule
     ],

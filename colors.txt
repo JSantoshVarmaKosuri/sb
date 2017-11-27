@@ -1,0 +1,40 @@
+-> Blue Option 
+    base: 2088DF
+    $background: #2089df;
+    $borderColor: #FF9C15;
+
+    $menuBackground:#FF9400;
+    $menuBackgroundAlternate:#EA8700;
+    $menuBackgroundBorder: #FFC371;
+
+    $headingColor: whitesmoke;
+
+    $textColorDesktop: #FFC371;
+    $textColor: whitesmoke;
+    $textColorAlternate: whitesmoke;
+
+    $imageColor: #FF9400;
+    $imageColorAlternate: #EA8700;
+
+-> Purple Option
+    $height: 30px;
+
+    $background: #B34A85;
+    $borderColor: #A8D057;
+
+    $menuBackground:#CBF37A;
+    $menuBackgroundAlternate:#719032;
+    $menuBackgroundBorder: #DCFC9B;
+
+    $headingColor: #DCFC9B;
+
+    $textColorDesktop: #A8D057;
+    $textColorDesktopAlternate: #7C2B59;
+
+    $textColor: #3B1229;
+    $textColorAlternate: #3B1229;
+
+    $imageColor: #A8D057;
+    $imageColorAlternate: #354415;
+
+-> 
