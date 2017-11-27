@@ -72,10 +72,6 @@ $imageColorAlternate: #EA8700;
             text-decoration: none;
             color: $textColorDesktop !important;
         }
-
-        a:hover, .sb-active-route {
-            color: $textColorDesktopAlternate !important;
-        }
     }
 }
 
@@ -96,11 +92,11 @@ $imageColorAlternate: #EA8700;
             text-decoration: none;
             color: $textColorDesktop !important;
         }
-
-        a:hover {
-            color: $textColorDesktopAlternate !important;
-        }
     }
+}
+
+.sb-active-route {
+    background-color: $textColorDesktopAlternate;
 }
 
 @media only screen and (max-width: 768px) {
