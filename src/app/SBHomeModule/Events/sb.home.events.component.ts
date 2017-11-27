@@ -6,5 +6,5 @@ import { Component } from "@angular/core";
     styleUrls: ['sb.home.events.component.scss']
 })
 export class SbHomeEventsComponent {
-
+    numbers = [1,2,3,4,5];
 }

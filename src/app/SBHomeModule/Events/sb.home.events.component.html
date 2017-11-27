@@ -1,3 +1,21 @@
-<section class="container">
-    Home Page Loaded
+<section class="event-container">
+    <ul class="event-list">
+        <li *ngFor="let number of numbers; let i = index;">
+            <div class="event-list-item">
+                <h3>Title{{i}}</h3>
+                <div class="event-list-item-card">
+                    <img src="/assets/user.png" alt="" />
+                    <div>
+                        <p>Speaker{{i}}</p>
+                        <p>Date{{i}}</p>
+                        <p>Desc{{i}}</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <section class="event-desc">
+
+    </section>
 </section>
